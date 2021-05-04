@@ -1,4 +1,4 @@
-let phoneNumber = "00911 61101";
+let phoneNumber = "0091161101";
 let arrPhoneNumber = phoneNumber.split("");
 //console.log(phoneNumber);
 function numberCorrect(number) {
@@ -16,15 +16,8 @@ function numberCorrect(number) {
     let a = "bad number";
     if (isNaN(number[index]) || number.length !== 10) {
       return a;
-    }
-    //   }
-    //   if (number.length !== 10) {
-    //     console.log("bad number");
-    //   }
-    // if (a === "bad number") {
-    //   return a;
-    else {
-      return number;
+    } else {
+      return number.join("");
     }
   }
 }
